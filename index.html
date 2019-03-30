@@ -13,7 +13,9 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+        strong.important{
+            color: #7bbaaa;
+        }
         a {
             text-decoration: none;
             color: #333;
@@ -278,6 +280,7 @@
             .section .more ul {
                 margin-left: 20px;
                 padding-bottom: 4px;
+                padding-top: 6px;
             }
 
             .wrapper {
@@ -331,7 +334,7 @@
                 <img src="./images/erweima.png" alt="">
                 <span style="font-size: 12px;display: inline-block;text-align: center;width: 100%;">在线简历预览</span>
             </div>
-            <p>2年前端开发经验，熟悉Vue技术栈，熟悉模块化、工程化开发流程，Webpack的配置小能手，熟练使用ES6写代码，有小程序、移动端开发经验</p>
+            <p>2年前端开发经验，熟练<strong class="important">Vue技术栈</strong>，熟悉模块化、工程化开发流程，熟练使用<strong class="important">ES6</strong>写代码，有<strong class="important">小程序、移动端</strong>开发经验</p>
 
         </div>
         <div class="experience section">
@@ -340,9 +343,9 @@
                 <div class="left pill">2015.11-2018.10</div>
                 <div class="more">
                     <h3><strong style="margin-left: -10px">2015.11-2018.10</strong> 明日教育科技有限公司<span
-                            style="margin-left: 26px;">前端&设计</span></h3>
+                            style="margin-left: 26px;"><strong class="important">前端&设计</strong></span></h3>
                     <ul>
-                        <li>主要负责公司的网站界面设计和静态页的实现，使用的技术栈主要有js、Bootstrap、Jquery、Sass、Adaptive.js、移动端。</li>
+                        <li>主要负责公司的网站<strong class="important">界面设计</strong>和页面（<strong class="important">PC端和移动端以及响应式</strong>）的实现，使用的技术栈主要有js、Bootstrap、Jquery、Sass、Adaptive.js、移动端。</li>
                     </ul>
                 </div>
             </div>
@@ -354,8 +357,8 @@
                 <div class="more">
                     <h4>LiFa-UI框架</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong> LiFa-UI框架是一个使用vue配合es6和sass开发，使用Karma +
-                            Mocha做单元测试，最后通过npm发布和parcel打包的UI框架，官网是使用VuePress构建，目前已经实现了Button/Tabs/Input/Grid/Layout/Popover/Cascader/Collapse等常用组件，用户可以通过命令行npm
+                        <li><strong>项目介绍：</strong> LiFa-UI框架是一个使用<strong class="important">vue配合es6和sass</strong>开发，使用<strong class="important">Karma +
+                            Mocha</strong>做单元测试，最后通过<strong class="important">npm发布和vue-cli搭建的UI框架</strong>，官网是使用<strong class="important">VuePress</strong>构建，目前已经实现了Button/Tabs/Input/Grid/Layout/Popover/Cascader/Collapse等常用组件，用户可以通过命令行npm
                             install lifa-ui来安装使用它。
                         </li>
                         <li><strong>技术栈：</strong> Vue + Es6 + Sass + Npm + Karma + Mocha + Parcel + Svg + VuePress</li>
@@ -374,9 +377,9 @@
                     <h4>Vue有赞商城移动端项目</h4>
                     <ul>
                         <li><strong>项目介绍：</strong>
-                            使用vue做的有赞商城移动端，将单页面应用调整为多页面应用，主要实现了底部导航中的四个模块（首页、分类、购物车、我（这里面只是做了收货地址管理）），通过easymock使用mockjs模拟数据，然后通过axios来获取数据，首页下拉使用了mint-ui这个库，实现了当即将滚动至底部时自动加载更多数据。
+                            使用<strong class="important">vue</strong>做的有赞商城<strong class="important">移动端</strong>，主要实现了底部导航中的四个模块（<strong class="important">首页、分类、购物车、</strong>我（这里面只是做了<strong class="important">收货地址管理</strong>）），通过<strong class="important">easymock使用mockjs</strong>模拟数据，然后通过<strong class="important">axios</strong>来获取数据，首页下拉使用了<strong class="important">mint-ui</strong>这个库，实现了当即将滚动至底部时自动加载更多数据。
                         </li>
-                        <li><strong>技术栈：</strong>Vue + Vue Router + + Vue-­cl + Vuex + Mockjs + Axios + Mint-UI +
+                        <li><strong>技术栈：</strong>Vue + Vue Router + + Vue-­cli + Vuex + Mockjs + Axios + Mint-UI +
                             Webpack
                         </li>
                         <li><a href="https://wanglifa1995.com/youzan/dist/index.html"><strong>项目预览</strong>（点击在线预览）</a>
@@ -392,7 +395,7 @@
                 <div class="more">
                     <h4>Vue搭建cnode社区</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong>使用cnode社区官方的api接口，通过vue对cnode社区进行重构，主要包括首页，用户列表页以及文章列表页。在项目过程中通过Vue-router实现路由切换功能，使用v-for实现了数据的遍历，用router-view来控制页面显示，因为其中有一个页面（Article组件）点击链接之后，页面的url只有参数发生变化，导致页面不会跳转，最后用了watch方法来监听路由，才解决这个bug。
+                        <li><strong>项目介绍：</strong>使用cnode社区官方的api接口，通过<strong class="important">Vue</strong>对cnode社区进行重构，主要包括<strong class="important">首页，用户列表页以及文章列表页</strong>。在项目过程中通过<strong class="important">Vue-router</strong>实现路由切换功能，使用v-for实现了数据的遍历，用router-view来控制页面显示，因为其中有一个页面（Article组件）点击链接之后，页面的url只有参数发生变化，导致页面不会跳转，最后用了<strong class="important">watch方法来监听路由</strong>，才解决这个bug。
                         </li>
                         <li><strong>技术栈：</strong>Vue + Axios + Jquery + Webpack + Npm + Vue-­cli + Vue-router + Es6</li>
                         <li><a href="https://wanglifa1995.com/cnode/dist/index.html#/"><strong>项目预览</strong>（点击在线预览）</a>
@@ -407,7 +410,7 @@
                 <div class="more">
                     <h4>微信小程序项目：立发翻译</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong>一款翻译的微信小程序，可以在语言页面选择所需翻译的语种，并且翻译过后会在历史页面保留你的历史数据，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据小程序技术文档来写的。
+                        <li><strong>项目介绍：</strong>一款<strong class="important">翻译的微信小程序</strong>，可以在语言页面选择所需<strong class="important">翻译</strong>的<strong class="important">语种</strong>，并且翻译过后会在历史页面保留你的<strong class="important">历史数据</strong>，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据<strong class="important">小程序文档</strong>来写的。
                         </li>
                         <li><strong>技术栈：</strong>百度api + iconfont + JavaScript + Promise + md5加密 + WXML + WXSS +
                             wx.request + wx.showToast + wx.switchTab
@@ -425,9 +428,9 @@
                 <div class="more">
                     <h4>FollowHeart 移动端音乐播放平台</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong>使用jq实现的一个移动端音乐播放器，实现了完善的音乐管理后台，可以在后台对歌曲/歌单进行增删改查。
-                            前端页面实现了首页，歌单页面，歌手页面（歌手信息及作品的展示），歌曲播放页面（可播放、暂停，支持歌词滚动、调节歌曲播放进度
-                            ），搜索页面。使用了七牛作为歌曲数据存储，leanCloud存储歌曲、歌手、歌单信息；主要就是从创建后台，上传内容，数据库记录相关数据，前端从云端数据库获取数据，然后渲染到页面上。
+                        <li><strong>项目介绍：</strong>使用<strong class="important">jq</strong>实现的一个<strong class="important">移动端音乐播放器</strong>，实现了完善的<strong class="important">音乐管理后台</strong>，可以在后台对<strong class="important">歌曲/歌单进行增删改查</strong>。
+                            前端页面实现了<strong class="important">首页，歌单页面，歌手页面（歌手信息及作品的展示），歌曲播放页面（可播放、暂停，支持歌词滚动、调节歌曲播放进度
+                            ），搜索页面</strong>。使用了<strong class="important">七牛</strong>作为歌曲数据存储，<strong class="important">leanCloud存储</strong>歌曲、歌手、歌单信息；主要就是从创建后台，上传内容，数据库记录相关数据，前端从云端数据库获取数据，然后渲染到页面上。
                         </li>
                         <li><strong>技术栈：</strong>JQuery + MVC + leanCloud + 七牛</li>
                         <li><a href="https://wanglifa1995.com/163-music/src/index.html"><strong>项目预览</strong>（点击在线预览）</a>
@@ -440,7 +443,7 @@
                 <div class="more">
                     <h4>Bootstrap项目：24预科官网</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong>一个留学项目的官网，里面还包括各个院校的留学官网已经各个项目的专题页，整个网站至少有四五十个页面，所有的页面从页面设计到代码上线都是我一人完成。其中一级栏目使用了bootstrap做了响应式布局，使手机和pc端可以访问到各自适合的布局页面，中间各院校页是针对pc和移动端分别做了两套页面，移动端使用了adaptive.js这个库，然后配合rem做的移动端适配。
+                        <li><strong>项目介绍：</strong>一个<strong class="important">留学项目的官网</strong>，里面还包括各个院校的留学官网已经各个项目的专题页，整个网站至少有<strong class="important">七八十个页面</strong>，所有的页面<strong class="important">从页面设计到代码上线都是我一人完成</strong>。其中一级栏目使用了<strong class="important">bootstrap做了响应式布局</strong>，使手机和pc端可以访问到各自适合的布局页面，中间各院校页是针对<strong class="important">pc和移动端</strong>分别做了两套页面，移动端使用了<strong class="important">adaptive.js</strong>这个库，然后配合<strong class="important">rem</strong>做的移动端适配。
                         </li>
                         <li><strong>技术栈：</strong>Bootstrap + Sass + Adaptive.js + Jquery</li>
                         <li><a href="http://www.24yuke.com/"><strong>项目预览</strong>（点击在线预览）</a>
@@ -453,7 +456,7 @@
                 <div class="more">
                     <h4>html5 canvas画板</h4>
                     <ul>
-                        <li><strong>项目介绍：</strong>使用h5中的canvas，配合js实现一个集画笔颜色、画笔粗细、橡皮擦、清空、和保存功能的花板，通过touch事件使手机也可以使用。在做canvas画板过程中遇到的问题及使用的知识点请移步到博客：<a
+                        <li><strong>项目介绍：</strong>使用h5中的<strong class="important">canvas</strong>，配合js实现一个集<strong class="important">画笔颜色、画笔粗细、橡皮擦、清空、和保存功能的画板</strong>，通过touch事件使手机也可以使用。在做canvas画板过程中遇到的问题及使用的知识点请移步到博客：<a
                                 href="https://zhuanlan.zhihu.com/p/38422042">canvas画布初体验</a></li>
                         <li><strong>技术栈：</strong>html5 Canvas + Js</li>
                         <li><a href="https://wanglifa1995.com/canvas-first/"><strong>项目预览</strong>（点击在线预览）</a>
