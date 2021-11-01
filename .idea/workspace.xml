@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8f842fc-f8fc-477c-a184-67e30d1e12c7" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="d8f842fc-f8fc-477c-a184-67e30d1e12c7" name="默认更改列表" comment="简历文案修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/erweima.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/erweima.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -25,6 +24,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -53,11 +58,36 @@
       <workItem from="1604560700208" duration="3799000" />
       <workItem from="1604565202012" duration="4504000" />
       <workItem from="1604896606154" duration="1326000" />
-      <workItem from="1604988344993" duration="5232000" />
+      <workItem from="1604988344993" duration="5902000" />
+      <workItem from="1632974321616" duration="8010000" />
+      <workItem from="1633769426803" duration="6591000" />
+      <workItem from="1634300852472" duration="3392000" />
     </task>
+    <task id="LOCAL-00001" summary="简历文案修改">
+      <created>1605001486001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605001486001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简历文案修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="简历文案修改" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="876" y="65" key="CommitChangelistDialog2" timestamp="1605001485844">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="876" y="65" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1605001485844" />
+    <state x="424" y="404" key="Vcs.Push.Dialog.v2" timestamp="1605001493627">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="424" y="404" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1605001493627" />
   </component>
 </project>

@@ -211,7 +211,6 @@
 
         .section h4 {
             color: #111;
-            margin-top: 20px;
         }
 
 
@@ -223,6 +222,15 @@
         .section .more li {
             color: #666;
             font-size: 14px;
+        }
+        .flex {
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .flex .time {
+            display: none;
         }
 
         .projects h4::before {
@@ -264,10 +272,16 @@
             .pill {
                 display: none;
             }
-
+            .section .flex {
+                margin-top: 10px;
+            }
+            .section .flex .time {
+                font-size: 13px;
+                display: block;
+                color: #9d9d9d;
+            }
             .section h2 {
                 font-size: 20px;
-                margin-top: 10px;
             }
 
             .section h3 {
@@ -280,7 +294,7 @@
 
             .section .more ul {
                 margin-left: 20px;
-                padding-bottom: 4px;
+                padding-bottom: 16px;
                 padding-top: 6px;
             }
 
@@ -302,7 +316,7 @@
         <ul class="contact">
             <li><span class="iconfont icon-email"></span>wanglifa1995@gmail.com</li>
             <li><span class="iconfont icon-phone"></span>15806553882</li>
-            <li><span class="iconfont icon-shuce"></span>3年前端经验</li>
+            <li><span class="iconfont icon-shuce"></span>4年前端经验</li>
             <li><span class="iconfont icon-maozi"></span>本科</li>
         </ul>
         <div class="skills">
@@ -311,7 +325,7 @@
                 <dt>JavaScript/HTML5/CSS3/SVG</dt>
                 <dd><span class="mastery" style="width: 90%"></span></dd>
                 <dt>Vue/Vuex/Vue-router</dt>
-                <dd><span class="mastery" style="width: 80%"></span></dd>
+                <dd><span class="mastery" style="width: 75%"></span></dd>
                 <dt>React/React hooks</dt>
                 <dd><span class="mastery" style="width: 75%"></span></dd>
                 <dt>Node.js</dt>
@@ -339,17 +353,27 @@
                 <img src="./images/erweima.png" alt="">
                 <span style="font-size: 12px;display: inline-block;text-align: center;width: 100%;">在线简历预览</span>
             </div>
-          <p>3年前端开发经验，熟练使用<strong class="important">Vue技术栈</strong>、<strong class="important">React技术栈</strong>，熟悉模块化、工程化开发流程，熟练使用<strong class="important">ES6</strong>和<strong class="important">Ts</strong>写代码，有<strong class="important">小程序、移动端</strong>开发经验</p>
+          <p>4年前端开发经验，熟练使用 <strong class="important">React 技术栈</strong>、<strong class="important"> Vue 技术栈</strong>，熟悉模块化、工程化开发流程，熟练使用 <strong class="important">ES6</strong> 和 <strong class="important">Ts</strong> 写代码，有<strong class="important">小程序、移动端</strong>开发经验</p>
         </div>
         <div class="experience section">
             <h2>工作经历</h2>
           <div class="detail">
-            <div class="left pill">2019.04-至今</div>
+            <div class="left pill">2020.12-2021.09</div>
             <div class="more">
-              <h3><strong style="margin-left: -10px">2019.04-至今</strong> 杭州源石云科技有限公司 <span
+              <h3><strong style="margin-left: -10px">2020.12-2021.09</strong> 杭州微拍堂创意文化有限公司 <span
                   style="margin-left: 26px;"><strong class="important">前端</strong></span></h3>
               <ul>
-                <li>主要负责公司app内的<strong class="important">H5页面</strong>和<strong class="important">支付宝小程序</strong>以及<strong class="important">后台系统</strong>，帮助公司在原生安卓和Ios的基础上实现了一整套完整的商城h5页面（从订单详情到购物车到支付下单流程），<strong class="important">减少了项目开发周期和加强了代码的可维护性</strong>，使功能优化和新增变得更加快捷。使用的技术栈主要有<strong class="important">Vue全家桶、React全家桶、Webpack、TypeScript、Sass、Nodejs、Rollup</strong></li>
+                <li>主要负责公司 App 内的 <strong class="important">H5 页面</strong>和<strong class="important">微信小程序</strong>以及<strong class="important">后台系统</strong>，和各大活动的<strong class="important">活动页面和动效开发</strong>以及参与公司的<strong class="important">多端 UI 组件库</strong>的开发和支持。使用的技术栈主要有 <strong class="important">React Hooks、Umi、Dva、Webpack、微信小程序、TypeScript、Less、Echarts、Lottie</strong></li>
+              </ul>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="left pill">2019.04-2020.12</div>
+            <div class="more">
+              <h3><strong style="margin-left: -10px">2019.04-2020.12</strong> 杭州源石云科技有限公司 <span
+                  style="margin-left: 26px;"><strong class="important">前端</strong></span></h3>
+              <ul>
+                <li>主要负责公司 App 内的 <strong class="important">H5 页面</strong>和<strong class="important">支付宝小程序</strong>以及<strong class="important">后台系统</strong>，帮助公司在原生安卓和 iOS 的基础上实现了一整套完整的商城 H5 页面（从订单详情到购物车到支付下单流程），<strong class="important">缩短了项目开发周期和加强了代码的可维护性</strong>，使功能优化和新增变得更加快捷。使用的技术栈主要有 <strong class="important">Vue 全家桶、React 全家桶、Webpack、TypeScript、Sass、Nodejs、Rollup</strong></li>
               </ul>
             </div>
           </div>
@@ -359,153 +383,233 @@
                     <h3><strong style="margin-left: -10px">2015.11-2018.10</strong> 明日教育科技有限公司<span
                             style="margin-left: 26px;"><strong class="important">前端&设计</strong></span></h3>
                     <ul>
-                        <li>主要负责公司的网站<strong class="important">界面设计</strong>和页面（<strong class="important">PC端和移动端以及响应式</strong>）的实现，使用的技术栈主要有js、Bootstrap、Jquery、Sass、Adaptive.js、移动端。</li>
+                        <li>主要负责公司的网站<strong class="important">界面设计</strong>和页面（<strong class="important">PC 端和移动端以及响应式</strong>）的实现，使用的技术栈主要有 Js、Bootstrap、Jquery、Sass、Adaptive.js、移动端。</li>
                     </ul>
                 </div>
             </div>
         </div>
       <div class="projects section">
-        <h2>工作项目</h2>
+        <h2>部分开源项目</h2>
+        <div class="item">
+          <div class="left pill">2020.07-2020.11</div>
+          <div class="more">
+            <div class="flex">
+              <h4>IVue3-UI 框架</h4>
+              <div class="time">2020.07-2020.11</div>
+            </div>
+            <ul>
+              <li><strong>项目介绍：</strong> IVue3-UI 是一个基于 <strong class="important">Vue3</strong> 和 <strong class="important">Ts</strong> 以及 <strong class="important">Vite</strong> 开发的 UI 框架，这款组件库其实是为了学习最新的 Vue3 和巩固自己的基础而写的，<strong class="important">通过 Rollup 对库文件进行了打包</strong>，用户可以通过命令行使用 npm install ivue3-ui 来安装使用。
+              </li>
+              <li><strong>技术栈：</strong> Vue3 + Vite + Ts + Es6 + Sass + Npm + Rollup + Svg</li>
+              <li><a href="https://wanglifa1995.gitee.io/ivue3-ui-web/#/"><strong>项目预览</strong>（点击在线预览）</a>
+              </li>
+              <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
+              <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
+              <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
+            </ul>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2020.03-2020.07</div>
+          <div class="more">
+            <div class="flex">
+              <h4>IReact-UI 框架</h4>
+              <div class="time">2020.03-2020.07</div>
+            </div>
+            <ul>
+              <li><strong>项目介绍：</strong> IReact-UI 框架是一个使用 <strong class="important">React Hooks 配合 Es6、Ts 和 Sass 以及 Webpack4</strong> 开发，使用 <strong class="important">Jest</strong> 做单元测试和 <strong class="important">Circle CI</strong> 做持续集成 ，最后通过 <strong class="important">npm 发布的 UI 框架</strong>，已实现 Icon/Button/Layout/Menu/Input/Form/Cascader/DatePicker/<br/>Collapse/Tree/Tableg 等常用组件，用户可以通过命令行 npm
+                install ireact-ui 来安装使用。
+              </li>
+              <li><strong>技术栈：</strong> React Hooks + React router + Ts + Es6 + Sass + Npm + Jest+ Webpack4 + Circle Ci + Svg</li>
+              <li><a href="https://wanglifa1995.gitee.io/ireact-ui/#/introduction"><strong>项目预览</strong>（点击在线预览）</a>
+              </li>
+              <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
+              <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
+              <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
+            </ul>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2018</div>
+          <div class="more">
+            <div class="flex">
+              <h4>LiFa-UI 框架</h4>
+              <div class="time">2018</div>
+            </div>
+            <ul>
+              <li><strong>项目介绍：</strong> LiFa-UI 框架是一个使用 <strong class="important">Vue 配合 Es6 和 Sass</strong> 开发，使用 <strong class="important">Karma +
+                Mocha</strong> 做单元测试，最后通过 <strong class="important">npm 发布和 vue-cli 搭建的 UI 框架</strong>，官网是使用 <strong class="important">VuePress</strong> 构建，已实现 Button/Tabs/Input/Grid/Layout/Popover/Cascader/Collapse 等常用组件，用户可通过命令行 npm
+                install lifa-ui 来安装使用。
+              </li>
+              <li><strong>技术栈：</strong> Vue + Es6 + Sass + Npm + Karma + Mocha + Parcel + Svg + VuePress</li>
+              <li><a href="https://wanglifa1995.com/LiFa-UI/"><strong>项目预览</strong>（点击在线预览）</a>
+              </li>
+              <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
+              <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
+              <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
+            </ul>
+
+          </div>
+        </div>
+<!--        <div class="item">-->
+<!--          <div class="left pill">2018.02 - 2018.08</div>-->
+<!--          <div class="more">-->
+<!--            <div class="flex">-->
+<!--              <h4>微信小程序项目：立发翻译</h4>-->
+<!--              <div class="time">2018.02 - 2018.08</div>-->
+<!--            </div>-->
+<!--            <ul>-->
+<!--              <li><strong>项目介绍：</strong>一款<strong class="important">翻译的微信小程序</strong>，可以在语言页面选择所需<strong class="important">翻译</strong>的<strong class="important">语种</strong>，并且翻译过后会在历史页面保留用户<strong class="important">历史数据</strong>，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据<strong class="important">小程序文档</strong>来写的。-->
+<!--              </li>-->
+<!--              <li><strong>技术栈：</strong>百度api + iconfont + JavaScript + Promise + md5加密 + WXML + WXSS +-->
+<!--                wx.request + wx.showToast + wx.switchTab-->
+<!--              </li>-->
+<!--              <li><a href="https://wanglifa1995.com/images/xiaochengxu.jpg"><strong>项目预览</strong>（点击在线预览）</a>-->
+<!--              </li>-->
+<!--              &lt;!&ndash; <li><strong>作为小程序的第一个项目，虽然页面结构比较简单，但还是用到了不少的api，中间遇到的问题和具体实现请看：<a href="">翻译小程序的实现</a></strong></li>-->
+<!--                <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/fanyi" target="_blank">https://github.com/wanglifa/fanyi</a></li>-->
+<!--                <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/images/xiaochengxu.jpg" target="_blank">点击查看</a></li> &ndash;&gt;-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+      <div class="projects section">
+        <h2>部分工作项目</h2>
+        <div class="item">
+          <div class="left pill">2021.08-2021.09</div>
+          <div class="more">
+            <div class="flex">
+              <h4>盲盒活动（多端）</h4>
+              <div class="time">2021.08-2021.09</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：</strong>公司内部的多端框架 + React Hooks + Webpack + Lottie + Less</li>
+              <li><strong>负责内容：</strong><strong class="important">盲盒活动所有页面</strong>，包括盲盒列表页、盲盒详情页、盲盒助力页、盲盒下单页。通过 Lottie 动画库实现购买盲盒成功后不同盲盒内容的动画效果，以及通过和任务中台的交互，上报数据实现用户助力成功次数的累加。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2021.05-2021.07</div>
+          <div class="more">
+            <div class="flex">
+              <h4>Growing 管理后台</h4>
+              <div class="time">2021.05-2021.07</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：</strong>React Hooks + TypeScript + Umi + Dva + AntD + less + Echarts + React-dnd</li>
+              <li><strong>负责内容：</strong><strong class="important">实现各种图表的可配置化</strong>，比如横纵轴和宽高以及展示的数据区间和数值单位。通过 React-dnd 实现组件的拖拽，然后通过 form 表单对组件进行编辑，对 Echarts 的各种图表进行数据的统一封装和兼容，使用户可以对各种类型的图表进行相同数据结构的编辑。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2021.03-2021.04</div>
+          <div class="more">
+            <div class="flex">
+              <h4>活动可视化平台</h4>
+              <div class="time">2021.03-2021.04</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：</strong>React Hooks + TypeScript + Umi + Dva + AntD + axios + less</li>
+              <li><strong>负责内容：</strong><strong class="important">框架搭建、拖拽功能、嵌套 iframe 通信的实现以及 form 表单配置化。</strong>使运营只需在对应的管理后台选择对应的组件，编写对应的内容就可以快速地生成一个 H5 活动页面。</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left pill">2020.12-2021.03</div>
+          <div class="more">
+            <div class="flex">
+              <h4>Facejs 多端组件库</h4>
+              <div class="time">2020.12-2021.03</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：</strong>Remax + React Hooks</li>
+              <li><strong>负责内容：</strong>基于 Remax 进行封装，对路由跳转做统一的映射处理，以便代码中只存在一个路由调用，实现的相关组件有 <strong class="important">Modal/Popup/Sticky/Tabs</strong>。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2020.09-2020.11</div>
+          <div class="more">
+            <div class="flex">
+              <h4>印度信贷-H5</h4>
+              <div class="time">2020.09-2020.11</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + Vant + SDK + Canvas</strong></li>
+              <li><strong>负责内容：</strong>负责实现用户资料进件流程功能，包括用户拍照证件上传与现有数据库里的身份信息进行比对，和<strong class="important">一系列表单校验的功能</strong>，<strong class="important">使用 Canvas 在保证图片不失真的情况下进行压缩，并且对业务组件进行了封装</strong>，便于之后相同业务功能的复用。由于项目主要是针对印度用户，所以存在初次页面访问慢的问题，针对这一问题首先使用了 Vant 自带的骨架屏，然后将图片和静态资源全部部署到了 CDN，将资源文件使用 Gzip 进行压缩，从而<strong class="important">提高了首屏渲染的速度</strong>。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2019.12-2020.11</div>
+          <div class="more">
+            <div class="flex">
+              <h4>小象优品管理后台</h4>
+              <div class="time">2019.12-2020.11</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + ElementUi</strong></li>
+              <li><strong>负责内容：</strong><strong class="important">项目搭建，模块拆分</strong>，独立开发完成商品编辑模块支持商品属性的增删改查以及 SKU 属性的联动，用户可以很好地对商城商品进行添加和修改。由于后台系统功能类似、开发时间紧张，<strong class="important">根据 UI 规范抽离通用的业务组件，如通用的搜索组件、表格组件、头部组件、颗粒度到按钮的权限控制指令</strong>，并且针对不同国家的用户可以进行语言的切换，后期负责功能模块的更新与迭代使系统变得日渐完善，<strong class="important">参与用户调研与产品沟通比较符合用户体验的交互功能</strong>。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left pill">2019.04-2019.11</div>
+          <div class="more">
+            <div class="flex">
+              <h4>小象生活电影票-H5</h4>
+              <div class="time">2019.04-2019.11</div>
+            </div>
+            <ul>
+              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + Vant</strong></li>
+              <li><strong>负责内容：</strong>在现有的 APP 的基础上添加电影票项目，主要负<strong class="important">责电影详情和用户买票、选座等常用的购票功能</strong>，针对不同的设备进行适配与 iOS 和 Android 进行联调。</li>
+            </ul>
+          </div>
+        </div>
+<!--        <div class="item">-->
+<!--          <div class="left pill">2019.04-2019.11</div>-->
+<!--          <div class="more">-->
+<!--            <div class="flex">-->
+<!--              <h4>ERP 系统后台</h4>-->
+<!--              <div class="time">2019.04-2019.11</div>-->
+<!--            </div>-->
+<!--            <ul>-->
+<!--              <li><strong>项目技术：React Hooks + React Router + Webpack + Axios + AntD + Echarts + Ts</strong></li>-->
+<!--              <li><strong>负责内容：</strong><strong class="important">使用 React Hooks 配合 Webpack4 和 Ts 独立完成项目搭建</strong>，实现了用户登录注册以及物流订单模块，基于 Echarts 展示了用户注册登录相关的数据信息，并且对 AntD 进行了二次封装。</li>-->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
         <div class="item">
           <div class="left pill">2019.04-2019.06</div>
           <div class="more">
-            <h4>支付宝小程序-商城</h4>
+            <div class="flex">
+              <h4>支付宝小程序-商城</h4>
+              <div class="time">2019.04-2019.06</div>
+            </div>
             <ul>
-              <li><strong>项目技术：</strong>支付宝小程序API和支付宝小程序相关组件</li>
-              <li><strong>负责内容：</strong>独立完成了商城活动抽奖页面和用户支付页面以及用户提现页面，<strong class="important">实现了比较完整的下单支付流程</strong>。并且在团队中负责了代码的review，<strong class="important">很好的提高了代码质量</strong>，使代码可读性变得更高。</li>
-            </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left pill">2019.04-2019.11</div>
-          <div class="more">
-            <h4>小象生活电影票-H5</h4>
-            <ul>
-              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + Vant</strong></li>
-              <li><strong>负责内容：</strong>在现有的APP的基础上添加电影票项目，主要负<strong class="important">责电影详情和用户买票、选座等常用的电影票功能</strong>，针对不同的设备进行适配与Ios和Android进行联调。</li>
-            </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left pill">2019.04-2019.11</div>
-          <div class="more">
-            <h4>印度信贷-H5</h4>
-            <ul>
-              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + Vant + SDK + Canvas</strong></li>
-              <li><strong>负责内容：</strong>负责实现用户资料进件流程功能，包括用户拍照证件上传与现有数据库里的身份信息进行比对，和<strong class="important">一系列表单校验的功能</strong>，<strong class="important">使用Canvas在保证图片不失真的情况下进行压缩，并且对业务组件进行了封装</strong>，便于之后相同业务功能的复用。由于项目主要是针对印度用户，所以存在初次页面访问慢的问题，针对这一问题首先使用了Vant自带的骨架屏，然后将图片和静态资源全部部署到了CDN，将资源文件使用Gzip进行压缩，从而<strong class="important">提高了首屏渲染的速度</strong>。</li>
-            </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left pill">2019.04-2019.11</div>
-          <div class="more">
-            <h4>小象优品管理后台</h4>
-            <ul>
-              <li><strong>项目技术：Vue2.0 + Vuex + Vue Router + Webpack + Axios + ElementUi</strong></li>
-              <li><strong>负责内容：</strong><strong class="important">项目搭建，模块拆分</strong>，独立开发完成商品编辑模块支持商品属性的增删改查以及SKU属性的联动，用户可以很好的对商城商品进行添加和修改，由于后台系统功能类似、开发时间紧张，<strong class="important">根据UI规范抽离通用的业务组件，如通
-                用的搜索组件、表格组件、头部组件、颗粒度到按钮的权限控制指令</strong>，并且针对不同国家的用户可以进行语言的切换，后期负责功能模块的更新与迭代使系统变得日渐完善，<strong class="important">参与用户调研与产品沟通比较符合用户体验的交互功能</strong>。</li>
-            </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="left pill">2019.04-2019.11</div>
-          <div class="more">
-            <h4>ERP系统后台</h4>
-            <ul>
-              <li><strong>项目技术：React Hooks + React Router + Webpack + Axios + AntD + Echart + Ts</strong></li>
-              <li><strong>负责内容：</strong><strong class="important">使用最新的React Hooks配合Webpack4和Ts独立完成项目搭建</strong>，实现了用户登录注册以及物流订单模块，基于Echart展示了用户注册登录相关的数据信息，并且对AntD进行了二次封装。</li>
+              <li><strong>项目技术：</strong>支付宝小程序 API 和支付宝小程序相关组件</li>
+              <li><strong>负责内容：</strong>独立完成了商城活动抽奖页面和用户支付页面以及用户提现页面，<strong class="important">实现了比较完整的下单支付流程</strong>，并且在团队中负责了代码的 review，<strong class="important">很好地提高了代码质量</strong>，使代码可读性变得更高。</li>
             </ul>
           </div>
         </div>
       </div>
-        <div class="projects section">
-            <h2>部分开源项目</h2>
-          <div class="item">
-            <div class="left pill">2020.07-2020.11</div>
-            <div class="more">
-              <h4>IVue3-UI框架</h4>
-              <ul>
-                <li><strong>项目介绍：</strong> IVue3-UI是一个基于<strong class="important">Vue3</strong>和<strong class="important">Ts</strong>以及<strong class="important">Vite</strong>开发的UI框架，这款组件库其实是为了学习最新的vue3和巩固自己的基础而写的，<strong class="important">通过rollup对库文件进行了打包</strong>，我们可以通过命令行使用npm install ivue3-ui来安装使用它。
-                </li>
-                <li><strong>技术栈：</strong> Vue3 + Vite + Ts + Es6 + Sass + Npm + Rollup + Svg</li>
-                <li><a href="https://wanglifa1995.gitee.io/ivue3-ui-web/#/"><strong>项目预览</strong>（点击在线预览）</a>
-                </li>
-                <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
-                <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
-                <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
-              </ul>
 
-            </div>
-          </div>
-          <div class="item">
-            <div class="left pill">2020.03-2020.07</div>
-            <div class="more">
-              <h4>IReact-UI框架</h4>
-              <ul>
-                <li><strong>项目介绍：</strong> IReact-UI框架是一个使用<strong class="important">React最新的Hooks配合Es6、Ts和Sass以及Webpack4</strong>开发，使用<strong class="important">Jest</strong>做单元测试和<strong class="important">Circle CI</strong>做持续集成 ，最后通过<strong class="important">npm发布的UI框架</strong>，目前已经实现了Icon/Button/Layout/Menu/Input/Form/Cascader/DatePicker/<br/>Collapse/Tree/Tableg等常用组件，用户可以通过命令行npm
-                  install ireact-ui来安装使用它。
-                </li>
-                <li><strong>技术栈：</strong> React Hooks + React router + Ts + Es6 + Sass + Npm + Jest+ Webpack4 + Circle Ci + Svg</li>
-                <li><a href="https://wanglifa1995.gitee.io/ireact-ui/#/introduction"><strong>项目预览</strong>（点击在线预览）</a>
-                </li>
-                <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
-                <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
-                <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
-              </ul>
-
-            </div>
-          </div>
-            <div class="item">
-                <div class="left pill">2018</div>
-                <div class="more">
-                    <h4>LiFa-UI框架</h4>
-                    <ul>
-                        <li><strong>项目介绍：</strong> LiFa-UI框架是一个使用<strong class="important">vue配合es6和sass</strong>开发，使用<strong class="important">Karma +
-                            Mocha</strong>做单元测试，最后通过<strong class="important">npm发布和vue-cli搭建的UI框架</strong>，官网是使用<strong class="important">VuePress</strong>构建，目前已经实现了Button/Tabs/Input/Grid/Layout/Popover/Cascader/Collapse等常用组件，用户可以通过命令行npm
-                            install lifa-ui来安装使用它。
-                        </li>
-                        <li><strong>技术栈：</strong> Vue + Es6 + Sass + Npm + Karma + Mocha + Parcel + Svg + VuePress</li>
-                        <li><a href="https://wanglifa1995.com/LiFa-UI/"><strong>项目预览</strong>（点击在线预览）</a>
-                        </li>
-                        <!-- <li><strong>这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a></strong></li>
-                        <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/gulu-demo" target="_blank">https://github.com/wanglifa/gulu-demo</a></li>
-                        <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/gulu-demo/" target="_blank">点击查看</a></li> -->
-                    </ul>
-
-                </div>
-            </div>
-            <div class="item">
-                <div class="left pill">02/2018 - 08/2018</div>
-                <div class="more">
-                    <h4>微信小程序项目：立发翻译</h4>
-                    <ul>
-                        <li><strong>项目介绍：</strong>一款<strong class="important">翻译的微信小程序</strong>，可以在语言页面选择所需<strong class="important">翻译</strong>的<strong class="important">语种</strong>，并且翻译过后会在历史页面保留你的<strong class="important">历史数据</strong>，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据<strong class="important">小程序文档</strong>来写的。
-                        </li>
-                        <li><strong>技术栈：</strong>百度api + iconfont + JavaScript + Promise + md5加密 + WXML + WXSS +
-                            wx.request + wx.showToast + wx.switchTab
-                        </li>
-                        <li><a href="https://wanglifa1995.com/images/xiaochengxu.jpg"><strong>项目预览</strong>（点击在线预览）</a>
-                        </li>
-                        <!-- <li><strong>作为小程序的第一个项目，虽然页面结构比较简单，但还是用到了不少的api，中间遇到的问题和具体实现请看：<a href="">翻译小程序的实现</a></strong></li>
-                          <li><strong>项目源码:</strong><a href="https://github.com/wanglifa/fanyi" target="_blank">https://github.com/wanglifa/fanyi</a></li>
-                          <li><strong>预览项目:</strong><a href="https://wanglifa1995.com/images/xiaochengxu.jpg" target="_blank">点击查看</a></li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="education section">
             <h2>教育经历</h2>
             <div class="detail">
                 <div class="left pill"></div>
                 <div class="more">
-                    <h3><strong style="margin-left: -10px">2018.03-2020.03</strong> 本科（自考） 中国海洋大学 <br><span
+                    <h3><strong style="margin-left: -10px">2018.03-2020.03</strong> 本科 中国海洋大学 <span
                             style="margin-left: 20px;">计算机科学与技术</span></h3>
                 </div>
             </div>
             <div class="detail">
                 <div class="left pill"></div>
                 <div class="more">
-                    <h3><strong style="margin-left: -10px">2013.09-2016.07</strong> 大专（统招） 山东轻工职业学院 <br><span
+                    <h3><strong style="margin-left: -10px">2013.09-2016.07</strong> 大专 山东轻工职业学院 <span
                             style="margin-left: 20px;">通信技术</span></h3>
                 </div>
             </div>
@@ -513,34 +617,44 @@
         <div class="about-me section">
           <h2>个人评价</h2>
           <p>痴迷新技术，喜欢承担有技术难度的工作，爱分享，
-            善于知识总结梳理。有过设计工作经验和绘画经历，能很好的处理页面的可鉴赏性。</p>
+            善于知识总结梳理。有过设计工作经验和绘画经历，能有效的提高页面的可鉴赏性。</p>
         </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
+<!--      <br>-->
     </div>
 </div>
 </body>
